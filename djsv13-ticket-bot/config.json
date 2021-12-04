@@ -1,0 +1,6 @@
+{
+  "comment": "setup everything and type can only be: menu or button or thread. you can change the bot however you want",
+  "prefix": "",
+  "token": "",
+  "type": "button"
+}
