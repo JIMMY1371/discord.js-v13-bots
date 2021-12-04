@@ -32,7 +32,7 @@ c.on("altAction", (member, date, action) => {
 **__Join Position__**: ${member.guild.memberCount}
 **__Join Date__**: ${date.joinAt}
 `);
-  client.channels.cache.get("908281997170987038").send({ embeds: [embed] });
+  client.channels.cache.get("908281997170987038").send({ embeds: [embed] }); // change id
 });
 
 client.login(require("./config.json").token);
